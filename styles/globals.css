@@ -323,3 +323,11 @@ a {
     width: 35vw;
   }
 }
+
+.a-arrow-icon {
+  font-size: 5vw;
+  color: rgb(45, 184, 27);
+  position: absolute;
+  left: 48%;
+  top: 45vw;
+}
