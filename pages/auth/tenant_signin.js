@@ -2,13 +2,10 @@ import Image from "next/image";
 import Tenant from "../../public/images/tenant.png";
 import Home_fill from "../../public/images/Home_fill.png";
 import Ellipse47 from "../../public/images/Ellipse47.png";
-<<<<<<< Updated upstream
-=======
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import { route } from "next/dist/server/router";
->>>>>>> Stashed changes
 
 function tenant_signin() {
   const router = useRouter();
@@ -102,14 +99,6 @@ function tenant_signin() {
                 <h2 className="form-title pr_form-title">Tenant Sign In</h2>
                 <form method="POST" className="register-form" id="login-form">
                   <div className="form-group pr_form-group">
-<<<<<<< Updated upstream
-                    <label className='pr_label' htmlFor="your_name"><i className="fas fa-user"></i></label>
-                    <input className="pa_input" type="text" name="your_name" id="your_name" placeholder="Your Name" />
-                  </div>
-                  <div className="form-group pr_form-group">
-                    <label className='pr_label' htmlFor="your_pass"><i className="fas fa-lock"></i></label>
-                    <input className="pa_input" type="password" name="your_pass" id="your_pass" placeholder="Password" />
-=======
                     <label className="pr_label" htmlFor="your_name">
                       <i className="fas fa-user"></i>
                     </label>
@@ -134,7 +123,6 @@ function tenant_signin() {
                       value={state.password}
                       onChange={handleChange}
                     />
->>>>>>> Stashed changes
                   </div>
                   <div className="custom-control custom-checkbox pt-5">
                     <input type="checkbox" className="custom-control-input" id="customCheck1" />
@@ -142,9 +130,6 @@ function tenant_signin() {
                   </div>
                   <div>
                     <div className="form-group pr_form-group form-button pr_form-button">
-<<<<<<< Updated upstream
-                      <input type="submit" name="signin" className=" btn btn-primary pr_form-submit" value="Sign In" />
-=======
                       {/* <Link href="/landing/tenant"> */}
                       <button
                         type="submit"
@@ -156,7 +141,6 @@ function tenant_signin() {
                         Sign In
                       </button>
                       {/* </Link> */}
->>>>>>> Stashed changes
                     </div>
                   </div>
                   <div className='p_mem'>Not a member? <a href='#'>Sign Up</a></div>
